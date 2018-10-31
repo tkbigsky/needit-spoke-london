@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get date for number of days in the future</description>
+        <internal_name>get_days_future_date</internal_name>
+        <label_cache>[{"name":"{{action.days_in_the_future}}","label":"action➛Days in the future","type":"action","ref":""},{"name":"{{step[ea912075-27c0-4ac8-bc77-976f60d05ee8].new_date}}","label":"step➛Script step➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>246878f8dba1230014ff58b3ca961954</latest_snapshot>
+        <master_snapshot>81275c38db61230014ff58b3ca9619e0</master_snapshot>
+        <name>Get Days Future Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 17:40:28</sys_created_on>
+        <sys_id>47a554f4db61230014ff58b3ca961909</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Get Days Future Date</sys_name>
+        <sys_package display_value="Needit Spoke" source="x_272530_needit_sp">bf06f798db61230014ff58b3ca9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit Spoke">bf06f798db61230014ff58b3ca9619bd</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_47a554f4db61230014ff58b3ca961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 20:12:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=47a554f4db61230014ff58b3ca961909"/>
+    <sys_variable_value action="delete_multiple" query="document_key=47a554f4db61230014ff58b3ca961909"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>47a554f4db61230014ff58b3ca961909</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 17:46:50</sys_created_on>
+        <sys_id>5c275c38db61230014ff58b3ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 17:46:50</sys_updated_on>
+        <value/>
+        <variable display_value="">58275c38db61230014ff58b3ca961986</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=47a554f4db61230014ff58b3ca961909"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>future_date</field>
+        <id>47a554f4db61230014ff58b3ca961909</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 17:46:50</sys_created_on>
+        <sys_id>d8275c38db61230014ff58b3ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 17:46:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_47a554f4db61230014ff58b3ca961909</table>
+        <value>{{step[ea912075-27c0-4ac8-bc77-976f60d05ee8].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
